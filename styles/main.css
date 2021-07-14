@@ -7,7 +7,6 @@ a{
 }
 .container-header{
     background-color: #2D25A0;
-    overflow: hidden;
 }
 .menu{
     display: flex;
