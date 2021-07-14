@@ -66,6 +66,7 @@ a{
     margin: 0 30px;
 }
 @media only screen and (max-width:688px){
+     
 
     .flexcon{
         width: 100%;
@@ -85,11 +86,7 @@ a{
         margin-top: 0;
    
     }
-    .flex img{
-        height: 300px;
-        width: 600px;
 
-    }
  
 
 }
@@ -115,17 +112,19 @@ a{
 }
 
 .cards{
-
+    width: 80%;
+    margin-top: 40px;
+    margin-left:110px;
     display: grid;
-    grid-gap: 15px 0px;
+    grid-gap: 20px;
     grid-template-columns: repeat(3,1fr);
-    margin: 2% 10%;
   
 }
 @media only screen and (max-width: 688px){
     .cards{
-    
+    width: 80%;
     display: grid;
+    margin-left: 60px;
     grid-template-columns: repeat(1,1fr);
     grid-template-rows: repeat(12,1fr);
 
