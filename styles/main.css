@@ -197,3 +197,17 @@ a{
 .fab:hover{
     color: #2D25A0;
 }
+
+.container-header:hover .flex h1{
+
+    transform: scale(1.2);
+    color: orangered;
+    transition: transform .4s ease-in-out, color 1s;
+
+
+}
+.container-header:hover .flex img{
+    transform: rotate(360deg);
+
+    transition: transform 1s;
+}
